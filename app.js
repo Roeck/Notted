@@ -14,7 +14,7 @@ app.use( bodyParser.urlencoded( {
 } ) );
 app.use( express.static( "public" ) );
 
-mongoose.connect( "mongodb://localhost:27017/nottedDB", {
+mongoose.connect( "mongodb+srv://admin:RAMG9797@firstcluster-qyels.mongodb.net/nottedDB", {
   useUnifiedTopology: true,
   useNewUrlParser: true
 } );
